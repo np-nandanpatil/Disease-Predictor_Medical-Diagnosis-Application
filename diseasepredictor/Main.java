@@ -84,11 +84,12 @@ public class Main extends JFrame {
             ResultSet rs = statement.executeQuery(query);
 
             StringBuilder diagnosisResult = new StringBuilder();
+            int i = 1;
             while (rs.next()) {
-                diagnosisResult.append(rs.getString("name"))
+                diagnosisResult.append(i++).append(") ").append(rs.getString("name"))
                         .append(": ")
                         .append(rs.getString("description"))
-                        .append("\n\n");
+                        .append("\n");
             }
 
             if (diagnosisResult.isEmpty()) {
