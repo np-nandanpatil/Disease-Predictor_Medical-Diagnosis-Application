@@ -27,7 +27,7 @@ A Java application that helps diagnose diseases based on selected symptoms. This
 2. **Set Up the Database**
 
     - Create a MySQL database named `DiseasePredictor`.
-    - Run the provided SQL script (`db_code.sql`) to set up the necessary tables and sample data.
+    - Run the provided SQL script (`resources/db_code.sql`) to set up the necessary tables and sample data.
 
 3. **Configure Database Connection**
 
