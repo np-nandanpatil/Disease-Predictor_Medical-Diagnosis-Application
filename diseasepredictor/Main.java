@@ -8,6 +8,13 @@ import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * This application helps diagnose diseases based on selected symptoms.
+ * This project uses a MySQL database to store symptoms and diseases and their relationships.
+ *
+ * @author https://github.com/np-nandanpatil
+ */
+
 public class Main extends JFrame {
 
     private final List<JCheckBox> symptomCheckBoxes = new ArrayList<>();
