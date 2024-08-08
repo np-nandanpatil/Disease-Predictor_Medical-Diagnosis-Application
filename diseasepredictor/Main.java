@@ -13,6 +13,8 @@ import java.util.List;
  * This project uses a MySQL database to store symptoms and diseases and their relationships.
  *
  * @author https://github.com/np-nandanpatil
+ * @since 09-08-2024
+ * @repo https://github.com/np-nandanpatil/Disease-Predictor_Medical-Diagnosis-Application
  */
 
 public class Main extends JFrame {
