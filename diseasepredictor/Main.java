@@ -54,7 +54,7 @@ public class Main extends JFrame {
 
     private void connectToDB() {
         try {
-            conn = DriverManager.getConnection("jdbc:mysql://localhost:0305/diseasepredictor", "root", "myPass");
+            conn = DriverManager.getConnection("jdbc:mysql://localhost:0305/diseasepredictor", "root", "password"); // you enter your credentials
         } catch (SQLException e) {
             e.printStackTrace();
         }
