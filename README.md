@@ -34,12 +34,8 @@ A Java application that helps diagnose diseases based on selected symptoms. This
     - Update the `connectToDB()` method in `Main.java` with your MySQL database credentials.
 
 4. **Compile and Run**
-
-   ```sh
-   javac -cp .:mysql-connector-java.jar diseasepredictor/Main.java
-   
-   java -cp .:mysql-connector-java.jar diseasepredictor.Main
-   ```
+    
+    - Compile and run the `Main.java` file
 
 ## Usage
 
